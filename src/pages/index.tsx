@@ -5,10 +5,11 @@ export default function Home() {
   return (
     <>
       <nav>
-      <Link href="/Pagina1">Pagina1</Link>
+      <Link href="/Pagina1">Pagina1</Link> 
+      <Link href="/Pagina2">Formulario</Link>
       </nav>
       
-      <Perfil nombre="Joselito" apellido="vaca" edad={20}/> //
+      <Perfil nombre="Joselito" apellido="vaca" edad={20}/>
       <Perfil nombre="pablo" apellido="marmol" edad={15}/>  
     </>
   );
