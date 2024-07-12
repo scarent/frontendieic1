@@ -8,7 +8,6 @@ export const Pagina3 = () => {
     const [persona,setPersona]= useState<Persona>(initialStatePersona)
     const handlePersona = (name:string,value:string)=>{
         setPersona({...persona,[name]:value})
-
     }
     const handleRegistrar =()=>{
         registrarPersona(persona).then(()=>{

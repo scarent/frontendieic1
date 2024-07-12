@@ -3,6 +3,7 @@ export interface Persona{
     apellido:string,
     rut:string,
     fechaNacimiento:string,
-    edad:number
-    correo:string
+    edad:number,
+    correo:string,
+    key?:string,
 }
